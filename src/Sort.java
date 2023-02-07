@@ -9,7 +9,13 @@ public class Sort <T> {
     public Sort(IComparator _Compare) {
         myCompare = _Compare;
     }
-
+    /**
+     * 	  Constructor of Sort Class, a Icomparator object is necessary to create
+     * 	  a object of this class
+     * 	  @param arr a class that implements IComparator interface necessary
+     * 	  to know how compare the elements of generic arrays.
+     *
+     */
     public static void gnomeSort(Comparable[] arr) {  //move to right while elements grow larger, swap backwards while element grow smaller
         int index = 0;
 
@@ -27,6 +33,11 @@ public class Sort <T> {
             index--;
         }
     }
+
+    /**
+     *
+     * @param arr
+     */
     public static void mergeSort(Comparable[] arr) {
         if (arr.length <= 1) {
             return;
@@ -42,6 +53,12 @@ public class Sort <T> {
 
     }
 
+    /**
+     *
+     * @param left
+     * @param right
+     * @param arr
+     */
     private static void merge(Comparable[] left, Comparable[] right, Comparator[] arr) {
 
         int leftIndex = 0;
@@ -61,6 +78,13 @@ public class Sort <T> {
         }
     }
 
+    /**
+     Sorts the specified array of objects using recursive quicksort
+     * sort algorithm.
+     * @param myArray
+     * @param inf
+     * @param sup
+     */
     public void quickSort(T[] myArray, int inf, int sup) {
         int i = inf - 1;
         int j = sup;
@@ -94,8 +118,12 @@ public class Sort <T> {
         quickSort(myArray, inf, i - 1);
         quickSort(myArray, i + 1, sup);
     }
-    public class RadixSort {
-        public static void sort(int[] arr) {
+
+    /**
+     *Sort numbers by order from least to greatest
+     * according to the last digit (going from end to start)
+     */
+        public static void radixSort (int[] arr) {
             final int RADIX = 10;
 
             List<Integer>[] bucket = new ArrayList[RADIX];
@@ -127,7 +155,11 @@ public class Sort <T> {
                 placement *= RADIX;
             }
         }
-    }
+
+    /**
+     *
+     * @param myArray
+     */
     public void selectionSort(T[] myArray)
     {
         int min;

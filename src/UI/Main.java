@@ -6,6 +6,11 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Main {
+    /**
+     * Class to generate random 3000 integer
+     * and save it in a .txt
+     * @param args
+     */
     public static void main(String[] args) {
         int[] num = new int[3000];
         try {
