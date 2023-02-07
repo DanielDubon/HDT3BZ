@@ -7,17 +7,19 @@ import Controller.Sort.*;
 
 public class JunitTest {
         public IComparator myCompare;
+        public   Sort sort = new Sort(myCompare);
         @Test
-        public void testSort() {
+        public void testSortRadix() {
             int[] arr = { 47, 23, 89, 56, 123, 456, 789, 12, 345, 678 };
             int[] expected = { 12, 23, 47, 56, 89, 123, 345, 456, 678, 789 };
 
-            Sort sort = new Sort(myCompare);
 
 
-            sort.quickSort();
+
+            sort.radixSort(arr);
             assertArrayEquals(expected, arr);
         }
+
     }
 
 

@@ -18,7 +18,7 @@ public class Sort <T> {
      * 	  to know how compare the elements of generic arrays.
      *
      */
-    public void gnomeSort(Comparable[] arr) {  //move to right while elements grow larger, swap backwards while element grow smaller
+    public  void gnomeSort(Comparable[] arr) {  //move to right while elements grow larger, swap backwards while element grow smaller
         int index = 0;
 
         while (index < arr.length) {
