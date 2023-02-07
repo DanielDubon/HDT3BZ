@@ -128,4 +128,23 @@ public class Sort <T> {
             }
         }
     }
+    public void selectionSort(T[] myArray)
+    {
+        int min;
+        T temp;
+
+        for (int index = 0; index < myArray.length-1; index++)
+        {
+            min = index;
+            for (int scan = index+1; scan < myArray.length; scan++) {
+                if (myCompare.Compare(myArray[scan], myArray[min]) < 0) {
+                    min = scan;
+                }
+            }
+
+            temp = myArray[min];
+            myArray[min] = myArray[index];
+            myArray[index] = temp;
+        }
+    }
 }
