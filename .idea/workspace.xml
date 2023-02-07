@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f334f655-a7bf-4f02-b567-b098064d6f81" name="Changes" comment="Selection Sort">
+    <list default="true" id="f334f655-a7bf-4f02-b567-b098064d6f81" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/JunitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +50,6 @@
       <updated>1675737818171</updated>
       <workItem from="1675737819557" duration="1030000" />
     </task>
-    <task id="LOCAL-00001" summary="Radix Sort">
-      <created>1675740957434</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1675740957434</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Selection Sort">
-      <created>1675741008056</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1675741008056</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,10 +65,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Radix Sort" />
-    <MESSAGE value="Selection Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selection Sort" />
   </component>
 </project>

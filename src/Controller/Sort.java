@@ -1,3 +1,5 @@
+package Controller;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -10,13 +12,13 @@ public class Sort <T> {
         myCompare = _Compare;
     }
     /**
-     * 	  Constructor of Sort Class, a Icomparator object is necessary to create
+     * 	  Constructor of Controller.Sort Class, a Icomparator object is necessary to create
      * 	  a object of this class
-     * 	  @param arr a class that implements IComparator interface necessary
+     * 	  @param arr a class that implements Controller.IComparator interface necessary
      * 	  to know how compare the elements of generic arrays.
      *
      */
-    public static void gnomeSort(Comparable[] arr) {  //move to right while elements grow larger, swap backwards while element grow smaller
+    public void gnomeSort(Comparable[] arr) {  //move to right while elements grow larger, swap backwards while element grow smaller
         int index = 0;
 
         while (index < arr.length) {
@@ -38,7 +40,7 @@ public class Sort <T> {
      *
      * @param arr
      */
-    public static void mergeSort(Comparable[] arr) {
+    public  void mergeSort(Comparable[] arr) {
         if (arr.length <= 1) {
             return;
         }
@@ -59,7 +61,7 @@ public class Sort <T> {
      * @param right
      * @param arr
      */
-    private static void merge(Comparable[] left, Comparable[] right, Comparator[] arr) {
+    private  void merge(Comparable[] left, Comparable[] right, Comparator[] arr) {
 
         int leftIndex = 0;
         int rightIndex = 0;
@@ -120,10 +122,10 @@ public class Sort <T> {
     }
 
     /**
-     *Sort numbers by order from least to greatest
+     *Controller.Sort numbers by order from least to greatest
      * according to the last digit (going from end to start)
      */
-        public static void radixSort (int[] arr) {
+        public void radixSort (int[] arr) {
             final int RADIX = 10;
 
             List<Integer>[] bucket = new ArrayList[RADIX];
