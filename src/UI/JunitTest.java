@@ -1,9 +1,12 @@
 package UI;
+import Algoritmos.Radix;
 import Controller.IComparator;
 import Controller.Sort;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import Controller.Sort.*;
+
+import java.util.Scanner;
 
 public class JunitTest {
         public IComparator myCompare;
@@ -14,10 +17,9 @@ public class JunitTest {
             int[] expected = { 12, 23, 47, 56, 89, 123, 345, 456, 678, 789 };
 
 
-
-
-            sort.radixSort(arr);
+            Radix.radixSort(arr);
             assertArrayEquals(expected, arr);
+
         }
 
     }
