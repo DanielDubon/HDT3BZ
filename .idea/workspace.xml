@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f334f655-a7bf-4f02-b567-b098064d6f81" name="Changes" comment="Test Radix completed">
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Gnome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Quick.java" afterDir="false" />
+    <list default="true" id="f334f655-a7bf-4f02-b567-b098064d6f81" name="Changes" comment="Algorithms completed">
+      <change afterPath="$PROJECT_DIR$/src/Controller/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/NumGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algoritmos/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/JunitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <recent name="C:\Users\danie\Documents\Progra\HDT3BZ\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JunitTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UI.Main" />
       <module name="HDT3BZ" />
@@ -84,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JunitTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.JunitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +98,7 @@
       <workItem from="1675737819557" duration="1030000" />
       <workItem from="1675814993481" duration="292000" />
       <workItem from="1675815296549" duration="4000" />
-      <workItem from="1675815315328" duration="1393000" />
+      <workItem from="1675815315328" duration="5764000" />
     </task>
     <task id="LOCAL-00001" summary="Bug fix">
       <created>1675743459916</created>
@@ -116,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675744032100</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Algorithms completed">
+      <created>1675817013067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675817013067</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bug fix" />
     <MESSAGE value="Test Radix completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Radix completed" />
+    <MESSAGE value="Algorithms completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithms completed" />
   </component>
 </project>
