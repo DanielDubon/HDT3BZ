@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f334f655-a7bf-4f02-b567-b098064d6f81" name="Changes" comment="Bug fix">
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Radix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Selection.java" afterDir="false" />
+    <list default="true" id="f334f655-a7bf-4f02-b567-b098064d6f81" name="Changes" comment="Test Radix completed">
+      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Gnome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Quick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmos/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/Selection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/JunitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,8 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/danie/Documents/Progra/HDT3BZ/src&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;VisualVMLauncher&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -96,6 +98,9 @@
       <option name="presentableId" value="Default" />
       <updated>1675737818171</updated>
       <workItem from="1675737819557" duration="1030000" />
+      <workItem from="1675814993481" duration="292000" />
+      <workItem from="1675815296549" duration="4000" />
+      <workItem from="1675815315328" duration="1393000" />
     </task>
     <task id="LOCAL-00001" summary="Bug fix">
       <created>1675743459916</created>
@@ -104,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675743459916</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test Radix completed">
+      <created>1675744032100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675744032100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fix" />
+    <MESSAGE value="Test Radix completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Radix completed" />
   </component>
 </project>
