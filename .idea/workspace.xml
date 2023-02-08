@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f334f655-a7bf-4f02-b567-b098064d6f81" name="Changes" comment="Test Radix completed">
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Gnome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algoritmos/Quick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algoritmos/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmos/Selection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/JunitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
