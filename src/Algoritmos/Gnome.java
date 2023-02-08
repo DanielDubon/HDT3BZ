@@ -1,8 +1,11 @@
 package Algoritmos;
 
+import java.util.Arrays;
+
 public class Gnome {
 
     public static void gnomeSort(int[] arr) {
+
         int index = 0;
 
         while (index < arr.length) {
@@ -18,5 +21,7 @@ public class Gnome {
                 index--;
             }
         }
+
     }
+
 }

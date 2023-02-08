@@ -9,6 +9,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -29,6 +30,7 @@ public class Main {
     }
 
     public static void menu(Scanner in, int[] arr) {
+        int[] desordenado = arr.clone();
         FileManager.saveNumbers(arr);
         Scanner scan = new Scanner(System.in);
         while (amenu) {
@@ -47,22 +49,32 @@ public class Main {
             //Menu de opciones para los Algortimos Sort
             switch (opcion) {
                 case 1:
-                    Gnome.gnomeSort(arr);
+                    System.out.println("Numeros desordenados: "+ Arrays.toString(arr));
+                    Gnome.gnomeSort(desordenado);
+                    System.out.println("Numeros ordenados: "+ Arrays.toString(desordenado));
                     break;
 
                 case 2:
-                    Merge.MergeSor(arr);
+                    System.out.println("Numeros desordenados: "+ Arrays.toString(arr));
+                    Merge.MergeSor(desordenado);
+                    System.out.println("Numeros ordenados: "+ Arrays.toString(desordenado));
                     break;
                 case 3:
-                    Quick.quickSort(arr, 0, arr.length - 1);
+                    System.out.println("Numeros desordenados: "+ Arrays.toString(arr));
+                    Quick.quickSort(desordenado, 0, arr.length - 1);
+                    System.out.println("Numeros ordenados: "+ Arrays.toString(desordenado));
                     break;
 
                 case 4:
-                    Radix.radixSort(arr);
+                    System.out.println("Numeros desordenados: "+ Arrays.toString(arr));
+                    Radix.radixSort(desordenado);
+                    System.out.println("Numeros ordenados: "+ Arrays.toString(desordenado));
                     break;
 
                 case 5:
-                    Selection.selectionSort(arr);
+                    System.out.println("Numeros desordenados: "+ Arrays.toString(arr));
+                    Selection.selectionSort(desordenado);
+                    System.out.println("Numeros ordenados: "+ Arrays.toString(desordenado));
                     break;
                 case 6:
                     amenu = false;
