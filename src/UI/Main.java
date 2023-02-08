@@ -19,15 +19,19 @@ public class Main {
      *
      * @param args
      */
+
+    public static boolean amenu = true;
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-       menu(in, NumGenerator.RandomGenerator());
+        menu(in, NumGenerator.RandomGenerator());
 
     }
-    public static boolean menu(Scanner in, int[] arr) {
+
+    public static void menu(Scanner in, int[] arr) {
         FileManager.saveNumbers(arr);
-            Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
+        while (amenu) {
             //Menu settings
             System.out.println(" -----MENU----");
             System.out.println(" -------------");
@@ -50,7 +54,7 @@ public class Main {
                     Merge.MergeSor(arr);
                     break;
                 case 3:
-                    Quick.quickSort(arr, 0, arr.length -1);
+                    Quick.quickSort(arr, 0, arr.length - 1);
                     break;
 
                 case 4:
@@ -61,12 +65,16 @@ public class Main {
                     Selection.selectionSort(arr);
                     break;
                 case 6:
-                    return false;
+                    amenu = false;
+                   break;
                 default:
                     System.out.println("Opcion no valida.");
                     break;
             }
-        return false;
+
+        }
+
+
+
     }
 }
-

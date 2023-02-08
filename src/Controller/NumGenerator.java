@@ -10,6 +10,7 @@ public class NumGenerator {
     public static int[] RandomGenerator(){
         Random random = new Random();
         Scanner in = new Scanner(System.in);
+        System.out.println("Ingrese cantidad de numeros a generar: ");
         int cantidad = in.nextInt();
         int[] randomNumbers = new int[cantidad];
 
